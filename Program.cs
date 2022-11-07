@@ -16,5 +16,8 @@ var elements = new Elements();
 var generates = new Generates();
 var quantifiers = new Quantifiers();
 var aggregators = new Aggregators();
+var sequences = new Sequences();
+var executions = new Executions();
+var joins = new Joins();
 
-aggregators.AggregateValueFromASeedValue();
+joins.OuterJoin();
